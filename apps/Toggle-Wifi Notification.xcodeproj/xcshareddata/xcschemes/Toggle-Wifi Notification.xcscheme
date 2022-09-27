@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7C6D15772270BA2F0092D34E"
-               BuildableName = "Notifier.app"
-               BlueprintName = "Notifier"
-               ReferencedContainer = "container:Notifier.xcodeproj">
+               BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
+               BuildableName = "Notifier - Notifications.app"
+               BlueprintName = "Notifier - Notifications"
+               ReferencedContainer = "container:Notifier - Notifications.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -37,19 +37,25 @@
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
-      debugDocumentVersioning = "NO"
+      debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7C6D15772270BA2F0092D34E"
-            BuildableName = "Notifier.app"
-            BlueprintName = "Notifier"
-            ReferencedContainer = "container:Notifier.xcodeproj">
+            BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
+            BuildableName = "Notifier - Notifications.app"
+            BlueprintName = "Notifier - Notifications"
+            ReferencedContainer = "container:Notifier - Notifications.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <CommandLineArguments>
+         <CommandLineArgument
+            argument = "--help"
+            isEnabled = "YES">
+         </CommandLineArgument>
+      </CommandLineArguments>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -61,15 +67,15 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7C6D15772270BA2F0092D34E"
-            BuildableName = "Notifier.app"
-            BlueprintName = "Notifier"
-            ReferencedContainer = "container:Notifier.xcodeproj">
+            BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
+            BuildableName = "Notifier - Notifications.app"
+            BlueprintName = "Notifier - Notifications"
+            ReferencedContainer = "container:Notifier - Notifications.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
-      buildConfiguration = "Release">
+      buildConfiguration = "Debug">
    </AnalyzeAction>
    <ArchiveAction
       buildConfiguration = "Release"
