@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		29A44A7728DF881A0049E4AE /* Toggle-Wifi Alert.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29A44A7328DF87120049E4AE /* Toggle-Wifi Alert.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		29A44A7828DF881F0049E4AE /* Toggle-Wifi Notification.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 29A44A7628DF87120049E4AE /* Toggle-Wifi Notification.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2933D10C28E31993002AE9DA /* Notifier - Alert.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2933D10828E31955002AE9DA /* Notifier - Alert.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		2933D10D28E319A8002AE9DA /* Notifier - Notification.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2933D10B28E31955002AE9DA /* Notifier - Notification.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		63B92DE1282AAEB700B44340 /* ArgumentParser in Frameworks */ = {isa = PBXBuildFile; productRef = 63B92DE0282AAEB700B44340 /* ArgumentParser */; };
 		63B92DE9282AAEDE00B44340 /* ArgParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B92DE8282AAEDE00B44340 /* ArgParser.swift */; };
 		7C6D157C2270BA2F0092D34E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6D157B2270BA2F0092D34E /* AppDelegate.swift */; };
@@ -18,33 +18,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		29A44A6D28DF87120049E4AE /* PBXContainerItemProxy */ = {
+		2933D10228E31955002AE9DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29A44A6728DF87120049E4AE /* Toggle-Wifi Notification.xcodeproj */;
+			containerPortal = 2933D0FC28E31955002AE9DA /* Notifier - Notification.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 7C8AB5DB22724FD6008E3160;
-			remoteInfo = "Toggle-Wifi Notification";
+			remoteInfo = "Notifier - Notification";
 		};
-		29A44A6F28DF87120049E4AE /* PBXContainerItemProxy */ = {
+		2933D10428E31955002AE9DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29A44A6A28DF87120049E4AE /* Toggle-Wifi Alert.xcodeproj */;
+			containerPortal = 2933D0FF28E31955002AE9DA /* Notifier - Alert.xcodeproj */;
 			proxyType = 1;
 			remoteGlobalIDString = 7C8AB5DB22724FD6008E3160;
-			remoteInfo = "Toggle-Wifi Alert";
+			remoteInfo = "Notifier - Alert";
 		};
-		29A44A7228DF87120049E4AE /* PBXContainerItemProxy */ = {
+		2933D10728E31955002AE9DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29A44A6A28DF87120049E4AE /* Toggle-Wifi Alert.xcodeproj */;
+			containerPortal = 2933D0FF28E31955002AE9DA /* Notifier - Alert.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7C8AB5DC22724FD6008E3160;
-			remoteInfo = "Toggle-Wifi Alert";
+			remoteInfo = "Notifier - Alert";
 		};
-		29A44A7528DF87120049E4AE /* PBXContainerItemProxy */ = {
+		2933D10A28E31955002AE9DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 29A44A6728DF87120049E4AE /* Toggle-Wifi Notification.xcodeproj */;
+			containerPortal = 2933D0FC28E31955002AE9DA /* Notifier - Notification.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 7C8AB5DC22724FD6008E3160;
-			remoteInfo = "Toggle-Wifi Notification";
+			remoteInfo = "Notifier - Notification";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -55,7 +55,7 @@
 			dstPath = banner;
 			dstSubfolderSpec = 7;
 			files = (
-				29A44A7828DF881F0049E4AE /* Toggle-Wifi Notification.app in CopyFiles */,
+				2933D10D28E319A8002AE9DA /* Notifier - Notification.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,24 +65,24 @@
 			dstPath = alert;
 			dstSubfolderSpec = 7;
 			files = (
-				29A44A7728DF881A0049E4AE /* Toggle-Wifi Alert.app in CopyFiles */,
+				2933D10C28E31993002AE9DA /* Notifier - Alert.app in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		29A44A6728DF87120049E4AE /* Toggle-Wifi Notification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Toggle-Wifi Notification.xcodeproj"; path = "/Users/nils/Developer/Notifier/apps/Toggle-Wifi Notification.xcodeproj"; sourceTree = "<absolute>"; };
-		29A44A6A28DF87120049E4AE /* Toggle-Wifi Alert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Toggle-Wifi Alert.xcodeproj"; path = "/Users/nils/Developer/Notifier/apps/Toggle-Wifi Alert.xcodeproj"; sourceTree = "<absolute>"; };
+		2933D0FC28E31955002AE9DA /* Notifier - Notification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Notifier - Notification.xcodeproj"; path = "/Users/nils/Developer/Notifier/apps/Notifier - Notification.xcodeproj"; sourceTree = "<absolute>"; };
+		2933D0FF28E31955002AE9DA /* Notifier - Alert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "Notifier - Alert.xcodeproj"; path = "/Users/nils/Developer/Notifier/apps/Notifier - Alert.xcodeproj"; sourceTree = "<absolute>"; };
 		63B92DE8282AAEDE00B44340 /* ArgParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgParser.swift; sourceTree = "<group>"; };
 		7C6D15782270BA2F0092D34E /* Notifier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Notifier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C6D157B2270BA2F0092D34E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C6D15802270BA300092D34E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		7C6D15822270BA300092D34E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C720951227888E10033B2E2 /* Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		7C9C700A23C14A9600A1A363 /* Toggle-Wifi Notification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Toggle-Wifi Notification.xcodeproj"; sourceTree = "<group>"; };
+		7C9C700A23C14A9600A1A363 /* Notifier - Notification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Notifier - Notification.xcodeproj"; sourceTree = "<group>"; };
 		7CBF17F62278A2DF0043E853 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = notifier/Assets.xcassets; sourceTree = SOURCE_ROOT; };
-		7CD4280223BFA4D500F9D5B9 /* Toggle-Wifi Alert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Toggle-Wifi Alert.xcodeproj"; sourceTree = "<group>"; };
+		7CD4280223BFA4D500F9D5B9 /* Notifier - Alert.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = "Notifier - Alert.xcodeproj"; sourceTree = "<group>"; };
 		B506001C24B3833300427FA1 /* Notifier - Alerts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Notifier - Alerts.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B506001D24B3833300427FA1 /* Notifier - Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = "Notifier - Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5735E3E24B39FC100813D66 /* NotifierRelease.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NotifierRelease.entitlements; sourceTree = "<group>"; };
@@ -100,18 +100,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		29A44A6828DF87120049E4AE /* Products */ = {
+		2933D0FD28E31955002AE9DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29A44A7628DF87120049E4AE /* Toggle-Wifi Notification.app */,
+				2933D10B28E31955002AE9DA /* Notifier - Notification.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		29A44A6B28DF87120049E4AE /* Products */ = {
+		2933D10028E31955002AE9DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				29A44A7328DF87120049E4AE /* Toggle-Wifi Alert.app */,
+				2933D10828E31955002AE9DA /* Notifier - Alert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -123,8 +123,8 @@
 				7C6D157A2270BA2F0092D34E /* Notifier */,
 				7C6D15792270BA2F0092D34E /* Products */,
 				7CECAB5C23BE493E00305F10 /* Frameworks */,
-				29A44A6728DF87120049E4AE /* Toggle-Wifi Notification.xcodeproj */,
-				29A44A6A28DF87120049E4AE /* Toggle-Wifi Alert.xcodeproj */,
+				2933D0FC28E31955002AE9DA /* Notifier - Notification.xcodeproj */,
+				2933D0FF28E31955002AE9DA /* Notifier - Alert.xcodeproj */,
 			);
 			sourceTree = "<group>";
 		};
@@ -153,8 +153,8 @@
 		7CD427F223BFA47300F9D5B9 /* apps */ = {
 			isa = PBXGroup;
 			children = (
-				7C9C700A23C14A9600A1A363 /* Toggle-Wifi Notification.xcodeproj */,
-				7CD4280223BFA4D500F9D5B9 /* Toggle-Wifi Alert.xcodeproj */,
+				7C9C700A23C14A9600A1A363 /* Notifier - Notification.xcodeproj */,
+				7CD4280223BFA4D500F9D5B9 /* Notifier - Alert.xcodeproj */,
 			);
 			name = apps;
 			path = ../apps;
@@ -186,8 +186,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				29A44A6E28DF87120049E4AE /* PBXTargetDependency */,
-				29A44A7028DF87120049E4AE /* PBXTargetDependency */,
+				2933D10328E31955002AE9DA /* PBXTargetDependency */,
+				2933D10528E31955002AE9DA /* PBXTargetDependency */,
 			);
 			name = Notifier;
 			packageProductDependencies = (
@@ -237,12 +237,12 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 29A44A6B28DF87120049E4AE /* Products */;
-					ProjectRef = 29A44A6A28DF87120049E4AE /* Toggle-Wifi Alert.xcodeproj */;
+					ProductGroup = 2933D10028E31955002AE9DA /* Products */;
+					ProjectRef = 2933D0FF28E31955002AE9DA /* Notifier - Alert.xcodeproj */;
 				},
 				{
-					ProductGroup = 29A44A6828DF87120049E4AE /* Products */;
-					ProjectRef = 29A44A6728DF87120049E4AE /* Toggle-Wifi Notification.xcodeproj */;
+					ProductGroup = 2933D0FD28E31955002AE9DA /* Products */;
+					ProjectRef = 2933D0FC28E31955002AE9DA /* Notifier - Notification.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -253,18 +253,18 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		29A44A7328DF87120049E4AE /* Toggle-Wifi Alert.app */ = {
+		2933D10828E31955002AE9DA /* Notifier - Alert.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = "Toggle-Wifi Alert.app";
-			remoteRef = 29A44A7228DF87120049E4AE /* PBXContainerItemProxy */;
+			path = "Notifier - Alert.app";
+			remoteRef = 2933D10728E31955002AE9DA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		29A44A7628DF87120049E4AE /* Toggle-Wifi Notification.app */ = {
+		2933D10B28E31955002AE9DA /* Notifier - Notification.app */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.application;
-			path = "Toggle-Wifi Notification.app";
-			remoteRef = 29A44A7528DF87120049E4AE /* PBXContainerItemProxy */;
+			path = "Notifier - Notification.app";
+			remoteRef = 2933D10A28E31955002AE9DA /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -315,15 +315,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		29A44A6E28DF87120049E4AE /* PBXTargetDependency */ = {
+		2933D10328E31955002AE9DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Toggle-Wifi Notification";
-			targetProxy = 29A44A6D28DF87120049E4AE /* PBXContainerItemProxy */;
+			name = "Notifier - Notification";
+			targetProxy = 2933D10228E31955002AE9DA /* PBXContainerItemProxy */;
 		};
-		29A44A7028DF87120049E4AE /* PBXTargetDependency */ = {
+		2933D10528E31955002AE9DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Toggle-Wifi Alert";
-			targetProxy = 29A44A6F28DF87120049E4AE /* PBXContainerItemProxy */;
+			name = "Notifier - Alert";
+			targetProxy = 2933D10428E31955002AE9DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -476,7 +476,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 2.3;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dataJAR.Notifier;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brew-upgrader.Notifier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_INCLUDE_PATHS = "";
 				SWIFT_VERSION = 5.0;
@@ -502,7 +502,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MARKETING_VERSION = 2.3;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dataJAR.Notifier;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brew-upgrader.Notifier";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_INCLUDE_PATHS = "";

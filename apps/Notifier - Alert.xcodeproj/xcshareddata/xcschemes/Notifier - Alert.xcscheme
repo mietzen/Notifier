@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
-               BuildableName = "Toggle-Wifi Alert.app"
-               BlueprintName = "Toggle-Wifi Alert"
-               ReferencedContainer = "container:Toggle-Wifi Alert.xcodeproj">
+               BuildableName = "Notifier - Alert.app"
+               BlueprintName = "Notifier - Alert"
+               ReferencedContainer = "container:Notifier - Alert.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
-            BuildableName = "Toggle-Wifi Alert.app"
-            BlueprintName = "Toggle-Wifi Alert"
-            ReferencedContainer = "container:Toggle-Wifi Alert.xcodeproj">
+            BuildableName = "Notifier - Alert.app"
+            BlueprintName = "Notifier - Alert"
+            ReferencedContainer = "container:Notifier - Alert.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -68,9 +68,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7C8AB5DB22724FD6008E3160"
-            BuildableName = "Toggle-Wifi Alert.app"
-            BlueprintName = "Toggle-Wifi Alert"
-            ReferencedContainer = "container:Toggle-Wifi Alert.xcodeproj">
+            BuildableName = "Notifier - Alert.app"
+            BlueprintName = "Notifier - Alert"
+            ReferencedContainer = "container:Notifier - Alert.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

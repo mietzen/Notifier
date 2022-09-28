@@ -22,7 +22,7 @@
 		7C516FF523BFA5BC00608BEB /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C516FF623BFA5BC00608BEB /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7C7BF31F23BFA6B00054F8D8 /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
-		7C8AB5DC22724FD6008E3160 /* Toggle-Wifi Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Toggle-Wifi Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C8AB5DC22724FD6008E3160 /* Notifier - Alert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Notifier - Alert.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,7 +37,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7C516FEF23BFA5BC00608BEB /* Toggle-Wifi Alert */ = {
+		7C516FEF23BFA5BC00608BEB /* Notifier - Alert */ = {
 			isa = PBXGroup;
 			children = (
 				7C516FF523BFA5BC00608BEB /* AppDelegate.swift */,
@@ -47,13 +47,13 @@
 				7C516FF223BFA5BC00608BEB /* MainMenu.xib */,
 				63B92DEC282AAF2500B44340 /* ArgParser.swift */,
 			);
-			path = "Toggle-Wifi Alert";
+			path = "Notifier - Alert";
 			sourceTree = "<group>";
 		};
 		7C8AB5D322724FD6008E3160 = {
 			isa = PBXGroup;
 			children = (
-				7C516FEF23BFA5BC00608BEB /* Toggle-Wifi Alert */,
+				7C516FEF23BFA5BC00608BEB /* Notifier - Alert */,
 				7C8AB5DD22724FD6008E3160 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 		7C8AB5DD22724FD6008E3160 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7C8AB5DC22724FD6008E3160 /* Toggle-Wifi Alert.app */,
+				7C8AB5DC22724FD6008E3160 /* Notifier - Alert.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -69,9 +69,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7C8AB5DB22724FD6008E3160 /* Toggle-Wifi Alert */ = {
+		7C8AB5DB22724FD6008E3160 /* Notifier - Alert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Toggle-Wifi Alert" */;
+			buildConfigurationList = 7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Notifier - Alert" */;
 			buildPhases = (
 				7C8AB5D822724FD6008E3160 /* Sources */,
 				7C8AB5D922724FD6008E3160 /* Frameworks */,
@@ -81,12 +81,12 @@
 			);
 			dependencies = (
 			);
-			name = "Toggle-Wifi Alert";
+			name = "Notifier - Alert";
 			packageProductDependencies = (
 				63B92DE6282AAECD00B44340 /* ArgumentParser */,
 			);
 			productName = "test-banner-2";
-			productReference = 7C8AB5DC22724FD6008E3160 /* Toggle-Wifi Alert.app */;
+			productReference = 7C8AB5DC22724FD6008E3160 /* Notifier - Alert.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -116,7 +116,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Toggle-Wifi Alert" */;
+			buildConfigurationList = 7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Notifier - Alert" */;
 			compatibilityVersion = "Xcode 11.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -132,7 +132,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7C8AB5DB22724FD6008E3160 /* Toggle-Wifi Alert */,
+				7C8AB5DB22724FD6008E3160 /* Notifier - Alert */,
 			);
 		};
 /* End PBXProject section */
@@ -307,8 +307,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.2.3;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dataJAR.NotifierAlerts;
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brew-upgrader.NotifierAlerts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -331,8 +331,8 @@
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MARKETING_VERSION = 2.2.3;
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.dataJAR.NotifierAlerts;
+				MARKETING_VERSION = 2.3;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.brew-upgrader.NotifierAlerts";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
@@ -342,7 +342,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Toggle-Wifi Alert" */ = {
+		7C8AB5D722724FD6008E3160 /* Build configuration list for PBXProject "Notifier - Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C8AB5E822724FD8008E3160 /* Debug */,
@@ -351,7 +351,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Toggle-Wifi Alert" */ = {
+		7C8AB5EA22724FD8008E3160 /* Build configuration list for PBXNativeTarget "Notifier - Alert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7C8AB5EB22724FD8008E3160 /* Debug */,
